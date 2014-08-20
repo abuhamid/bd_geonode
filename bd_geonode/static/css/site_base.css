@@ -1,0 +1,25 @@
+.nav-logo {
+    float: left;
+    width: 373px;
+    height: 80px;
+    background: url(../img/Title_Logo_White_Ubuntu.png) no-repeat no-repeat scroll 0% 0% transparent;
+	margin-top: -10px;
+    text-indent: -9999em;
+    margin-bottom: 00px;
+}
+
+/*
+.content-wrap {
+    margin: 75px 75px;
+}*/
+
+.hero-unit .intro {
+    float: left;
+    width: 70%;
+}
+
+
+
+.navbar .navbar-inner {
+    background: #9CC4E4;
+}

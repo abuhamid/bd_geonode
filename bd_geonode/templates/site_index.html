@@ -10,12 +10,13 @@ This is where you can override the hero area block. You can simply modify the co
 {% endcomment %}
   {% block hero %}
   <div class="hero-unit">
-    <h1>{% trans "Welcome" %}</h1>
+   <!-- <h1>{% trans "Main Picture will go here" %}</h1> -->
     <div class="hero-unit-content">
-      <div class="intro">
-        <p>
+	      <div class="intro">
+	<img src = 'http://payload.cargocollective.com/1/0/20818/2289083/Bangladesh.png' />
+	        <p>
           {% blocktrans %}
-            GeoNode is an open source platform for sharing geospatial data and maps.  If you have any questions about the software or service, join our <a href="https://groups.google.com/d/forum/geonode-users">mailing list</a>.
+           Bangladesh-Geonode is a setup for the develpment sector of Bangladesh to collaboratively create and sharing geospatial data and maps.  
           {% endblocktrans %}
         </p>
         <span>{% trans 'Need help' %} <a href="http://geonode.github.com/workshops/user">{% trans 'Getting Started?' %}</a></span>
